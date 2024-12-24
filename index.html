@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iClinic</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="bg-white shadow-sm">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand fw-bold" href="#">iClinic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#information">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main
+      id="home"
+      class="d-flex align-items-center justify-content-center flex-column"
+    >
+      <img src="asset/logo.png" alt="Caduceus Logo" class="logo" />
+      <div class="text-center">
+        <h1 class="mb-4">
+          Selamat Datang di Aplikasi <span class="fw-bold">iClinic</span>
+        </h1>
+        <a href="#contact" class="btn btn-primary">Contact US</a>
+      </div>
+    </main>
+
+    <section id="information" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold">
+          Solusi Digital Terdepan untuk Fasilitas Kesehatan di Indonesia
+        </h2>
+        <p class="text-muted mb-5">
+          Kami memberdayakan apotek, klinik, puskesmas, dan rumah sakit dengan
+          teknologi modern untuk meningkatkan layanan kesehatan.
+        </p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-primary text-white rounded">
+              <h3 class="fw-bold">700+</h3>
+              <p>Fasilitas Kesehatan Terintegrasi</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-primary text-white rounded">
+              <h3 class="fw-bold">20.000+</h3>
+              <p>Tenaga Medis Terbantu</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-primary text-white rounded">
+              <h3 class="fw-bold">2 Juta+</h3>
+              <p>Pasien Terlayani</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6 mb-4">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold">Sistem Manajemen Rumah Sakit</h5>
+              <p>
+                Pengelolaan rekam medis, otomatisasi rawat jalan, dan dashboard
+                administrasi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold">Solusi Digital Apotek</h5>
+              <p>
+                Manajemen inventaris obat, pemesanan online, dan integrasi resep
+                dokter.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold">Aplikasi Mobile Pasien</h5>
+              <p>
+                Booking layanan, akses rekam medis, dan konsultasi dokter
+                berbasis chat/video.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold">Dukungan Puskesmas & Klinik</h5>
+              <p>
+                Pendaftaran online, integrasi laboratorium, dan pelaporan
+                terpadu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="meet-the-team" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Meet the Team.</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. John Doe</h5>
+              <p>Specialist in Internal Medicine</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. Jane Smith</h5>
+              <p>Cardiologist</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. Emily White</h5>
+              <p>Pediatrician</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. Michael Brown</h5>
+              <p>Orthopedic Surgeon</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. Sarah Green</h5>
+              <p>Neurologist</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 bg-white shadow rounded">
+              <div
+                class="placeholder bg-secondary mb-3"
+                style="height: 150px; width: 100%"
+              ></div>
+              <h5 class="fw-bold">Dr. Alex Blue</h5>
+              <p>Dermatologist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 mt-3">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullName"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button
+      id="scrollToTopBtn"
+      class="btn btn-primary"
+      title="Go to top"
+      style="display: none"
+    >
+      Top
+    </button>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
